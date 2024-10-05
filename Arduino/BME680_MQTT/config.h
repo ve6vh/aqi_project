@@ -1,12 +1,12 @@
 // local WIFI network
-#define CONFIG_NETWORKID  "Labrat"
-#define CONFIG_PASS       "nimh_secret"
+#define CONFIG_NETWORKID  "<your wifi network>"
+#define CONFIG_PASS       "<your wifi password>"
 
 // MQTT broker
 #define CONFIG_BROKER     "aprs.adrcs.org"
 #define CONFIG_PORT        7000
-#define CONFIG_MQTT_USER  "aqi"
-#define CONFIG_MQTT_PASS  "bosch"
+#define CONFIG_MQTT_USER  "<broker user name>"
+#define CONFIG_MQTT_PASS  "<broker password>"
 
 // your device ID and lat/long
 #define CONFIG_DEVICE     "40367091005101"
